@@ -1,0 +1,255 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: 105px;
+    
+    
+  }
+  .logo {
+    height: 70px;
+    width: 100px;
+  }
+  .navigation-bar {
+    background-color: #5DADE2  ;
+    height: 70px;
+    width: 100%;
+    float: right;
+    margin: 0%;
+  }
+  
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    float: right;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  .navigation-bar li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    
+  }
+  li a:hover {
+    background-color: white;
+  }
+.background {
+  color: #050504;
+  background-color: #F39C12;
+  height: 600px;
+}
+.main-box {
+  width:1200px;
+  height: auto;
+  margin: auto;
+  color: #ffffff ;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial, Helvetica, sans-serif;
+latter: spacing 1.2px;
+line-height: 30px;
+}
+.text-big{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+  position: relative;
+top: 100px;
+}
+.par {
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
+.secend{
+  display: flex;
+  width: 50px
+}
+.btn {
+  width: 160px;
+  height: 40px;
+  border: none;
+ margin-bottom: 10px;
+margin-left: 20px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+top:100px;
+}
+.btn:hover{
+  background-color: rgb(9, 130, 243);
+
+
+}
+.pic {
+  position: relative;
+  left: 700px;
+  bottom: 250px;
+  display: flex;
+  margin bottom: 900px;
+}
+.next {
+  background-color: #ffffff;
+  height: 400px;
+  position: relative;
+  bottom: 30px;
+  bottom: 45px;
+
+}
+.service{
+	background: #5DADE2 ;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #F39C12;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#5DADE2 ;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 360px;
+	background: #f9004d;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+  height: 600px;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 120px;
+  position: relative;
+  top: 50px;
+}
+.my-image {
+  width: 10%;
+  position: relative;
+  bottom: 50px;
+  
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #F39C12;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
