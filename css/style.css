@@ -1,12 +1,4 @@
 
-body {
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    bottom: 105px;
-    
-    
-  }
   .logo {
     height: 70px;
     width: 100px;
@@ -50,14 +42,14 @@ body {
   }
 .background {
   color: #050504;
-  background-color: #F39C12;
+  background-color: #DEF5E5;
   height: 600px;
 }
 .main-box {
   width:1200px;
   height: auto;
   margin: auto;
-  color: #ffffff ;
+  color: #8EC3B0 ;
   position: relative;
 }
 .content .par{
@@ -117,10 +109,131 @@ top:100px;
   bottom: 45px;
 
 }
-.service{
-	background: #5DADE2 ;
+
+.FEATURES{
+	background: #DEF5E5
 	width: 100%;
-	padding: 100px 0px;
+	padding: 100px 0px ;
+}
+.TESTOMINOLES {
+	background: #8EC3B0;
+	width: 100%;
+	padding: 30px 0px ;
+
+}
+.feature-heading h1{
+	color: rgb(0, 0, 0);
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.TESTOMINOLES-HEADING h1{
+	color: rgb(0, 0, 0);
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.feature-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.TESTOMINOLES-body {
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	padding-left: 430px;
+	padding-right: 430px;
+
+}
+.card01-pera {
+	color: #000000;
+	margin: 20px;
+}
+.card02-pera {
+	color: #000000;
+	margin: 20px;
+}
+.card03-pera {
+	color: #000000;
+	margin: 20px;
+}
+
+.cleanup-pera{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	latter: spacing 1.2px;
+	line-height: 30px;
+	width: 330px;
+	height: ;
+}
+.card01{
+	padding: 10px 10px;
+	background: #457463;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.setting-feature{
+	padding: 10px 10px;
+	background: #457463;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	height: 390px;
+}
+.setting-feature{
+	padding: 10px 10px;
+	background: #457463;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	height: 390px;
+}
+.setting-body{
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card01-body{
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.setting-pera{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	latter: spacing 1.2px;
+	line-height: 30px;
+	width: 330px;
+	color: #ffffff;
+}
+
+.cleanup-images{
+	width: 100px;
+	height: 100px;
+}
+.setting-images{
+	width: 100px;
+	height: 100px;
 }
 .title h2{
 	color: white;
@@ -135,50 +248,22 @@ top:100px;
 	align-items: center;
 	min-height: 400px;
 }
-.card{
-	height: 365px;
-	width: 335px;
-	padding: 20px 35px;
-	background: #F39C12;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
+.img-cleanup {
+	width: 100px;
+	height: 100px;
 }
-.card i{
-	font-size: 50px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: #f9004d;
 
+	width: 120px;
+	height: 100px;
+	margin-left: 100px;
 }
-h5{
+.h5{
+	
 	color: white;
-	font-size: 23px;
+	font-size: 40px;
 	margin-bottom: 15px;
 }
-.pra p{
-	color: #fcfc;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-}
-.card .button{
-	background-color:#5DADE2 ;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.card .button:hover{
-	background-color: transparent;
-	border: 2px solid #ffffff;
-	cursor: pointer;
+
 }
 .contact-me{
 	width: 100%;
@@ -204,52 +289,235 @@ h5{
   bottom: 50px;
   
 }
-footer{
-	position: relative;
-	width: 100%;
-	height: 400px;
-	background: #F39C12;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
-}
-.social{
+.footer {
+	background-color: #3A8891;
 	display: flex;
 }
-.social a{
-	width: 45px;
-	height: 45px;
+.footer-elem {
+}
+.logo-site {
+	width: 70px;
+	height: 70px;
+	position: relative; right: 480px;
+}
+.log {
+	width: 120px;
+	height: 80px;
+
+}
+.logo-img {
+	padding-bottom: 50px;
+}
+.contactss {
+	color: rgb(255, 255, 255);
+	padding-left: 100px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	background:  #f9004d;
-	border-radius: 50%;
-	margin: 22px 10px;
-	color: white;
-	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 50px;
+}
+.vl {
+	height: 300px;
+	border-left: 1px solid rgb(235, 235, 235);
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.phone {
+	display: flex;
+	padding-top: 40px;
+	
+
+}
+.phone-img{
+	width: 40px;
+	height: 40px;
+	padding-top: 18px;
+	padding-right: 50px;
+}
+.phone-para {
 	font-size: 20px;
 }
-.social a:hover{
-	transform: scale(1.3);
-	transition: .3s;
+.email {
+	display: flex;
 }
-.end{
-	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
+.email-icon {
+	width: 40px;
+	height: 40px;
+	padding-top: 18px;
+	padding-right: 50px;
 }
+
+.logo-img {
+	padding-top: 50px;
+}
+.site-map {
+	overflow: hidden;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50;
+margin-bottom: 100px;
+margin-top: 50px;
+margin-left: 100px;
+}
+.sitemap-info {
+	color: white;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+  .sitemap-heading h1 {
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #ffffff;
+  }
+  .sitemap-main {
+	display: flex;
+  }
+  ul {
+	list-style-type: none;
+	margin-top: 50px;
+padding-left: 0px;
+	overflow: hidden;
+	background-color: #333333;
+	
+  }
+  .sitemap2{
+	padding-left:  100px;
+
+	color: #ffffff;
+  }
+  .home {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+  }
+  .signin {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+  }
+  .signout {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+  }
+   a {
+	color: #ffffff;
+	text-decoration: none;
+  }
+  .fet {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+
+  }
+  .tes
+  {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+  }
+  .user {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 25px;
+  }
+  .socialssit {
+	background-color: ;
+	padding-left: 100px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+  }
+  .s-heading {
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #ffffff;
+  }
+  .iconss {
+	margin-top: 80px;
+
+
+  }
+
+  .facebook-head {
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-size: 20px;
+  }
+  .twitter {
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-size: 20px;
+  }
+  .instagram {
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-size: 20px;
+  }
+  .linkin-in {
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-size: 20px;
+  }
+  .facebook {
+	display: flex;
+  }
+  .tw {
+	display: flex;
+  }
+  .s-heading h1 {
+	overflow: hidden;
+  }
+  .linkin {
+	display: flex;
+  }
+  .insta{
+	display: flex;
+  }
+  .fb {
+	padding-bottom: 20px;
+	width: 40px;
+	height: 40px;
+  }
+  .tw-icon {
+	padding-bottom: 20px;
+	width: 40px;
+	height: 40px;
+  }
+  .insta-icon {
+	padding-bottom: 20px;
+	width: 40px;
+	height: 40px;
+  }
+  .link-icon{
+	padding-bottom: 20px;
+	width: 40px;
+	height: 40px;
+  }
+  .copyright {
+	background-color: #0E5E6F;
+	margin-top: -24px;
+	margin-bottom: -24px;
+  }
+  .copyright-claim{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 7px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #b4b2b2;
+
+  }
