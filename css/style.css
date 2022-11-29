@@ -4,7 +4,7 @@
     width: 100px;
   }
   .navigation-bar {
-    background-color: #5DADE2  ;
+    background-color: #474E68;
     height: 70px;
     width: 100%;
     float: right;
@@ -38,18 +38,19 @@
     
   }
   li a:hover {
-    background-color: white;
+    background-color: wheat;
   }
 .background {
   color: #050504;
-  background-color: #DEF5E5;
+  background-color: #6B728E;
   height: 600px;
 }
 .main-box {
   width:1200px;
   height: auto;
   margin: auto;
-  color: #8EC3B0 ;
+  margin-top: ;
+  color: #ffffff;
   position: relative;
 }
 .content .par{
@@ -88,6 +89,7 @@ border-radius: 10px;
 cursor: pointer;
 position: relative;
 top:100px;
+background-color: #474E68;
 }
 .btn:hover{
   background-color: rgb(9, 130, 243);
@@ -113,44 +115,53 @@ top:100px;
 .FEATURES{
 	background: #DEF5E5
 	width: 100%;
-	padding: 100px 0px ;
+	padding-top :50px;
+
 }
 .TESTOMINOLES {
-	background: #8EC3B0;
 	width: 100%;
-	padding: 30px 0px ;
+	padding: 50px 0px ;
+	
 
 }
 .feature-heading h1{
 	color: rgb(0, 0, 0);
-	font-size: 75px;
+	font-size: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
 }
 .TESTOMINOLES-HEADING h1{
 	color: rgb(0, 0, 0);
-	font-size: 75px;
-	width: 1130px;
-	margin: 30px auto;
-	text-align: center;
-	padding-top: 20px;
-	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center
 }
 .feature-body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
+	padding-bottom: 50px;
 }
 .TESTOMINOLES-body {
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
-	padding-left: 430px;
-	padding-right: 430px;
+	width: 460px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  padding-left: 450px;
+  padding-bottom: 40px;
+
 
 }
+
 .card01-pera {
 	color: #000000;
 	margin: 20px;
@@ -173,10 +184,12 @@ top:100px;
 	width: 330px;
 	height: ;
 }
-.card01{
+.setting-feature {
 	padding: 10px 10px;
-	background: #457463;
+	font-size: 20;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border-radius: 20px;
+	color: #000000;
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
@@ -185,21 +198,23 @@ top:100px;
 	padding-bottom: 50px;
 	padding-left: 25px;
 	padding-right: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .setting-feature{
 	padding: 10px 10px;
-	background: #457463;
+	color: #000000;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
 	height: 390px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .setting-feature{
 	padding: 10px 10px;
-	background: #457463;
+	color: #000000;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -224,7 +239,7 @@ top:100px;
 	latter: spacing 1.2px;
 	line-height: 30px;
 	width: 330px;
-	color: #ffffff;
+	color: #000000;
 }
 
 .cleanup-images{
@@ -290,8 +305,10 @@ top:100px;
   
 }
 .footer {
-	background-color: #3A8891;
+	background-color: #474E68;
 	display: flex;
+	justify-content: space-around;
+  
 }
 .footer-elem {
 }
@@ -310,16 +327,23 @@ top:100px;
 }
 .contactss {
 	color: rgb(255, 255, 255);
-	padding-left: 100px;
 	display: flex;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-left: 50px;
 }
 .vl {
 	height: 300px;
 	border-left: 1px solid rgb(235, 235, 235);
 	margin-top: 50px;
+	padding-left: 80px;
+	margin-left: 50px;
+
+}
+.vl2 {
+	height: 300px;
+	border-left: 1px solid rgb(235, 235, 235);
+	margin-top: 50px;
+	padding-left: 80px;
 	margin-left: 50px;
 }
 .phone {
@@ -352,12 +376,22 @@ top:100px;
 }
 .site-map {
 	overflow: hidden;
-	padding-left: 50px;
-	padding-right: 50px;
+
 	padding-top: 50;
 margin-bottom: 100px;
 margin-top: 50px;
-margin-left: 100px;
+
+}
+.setting-feature  {
+	padding: 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	height: 390px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .sitemap-info {
 	color: white;
@@ -373,12 +407,13 @@ margin-left: 100px;
   .sitemap-main {
 	display: flex;
   }
-  ul {
+  .ul {
 	list-style-type: none;
 	margin-top: 50px;
 padding-left: 0px;
 	overflow: hidden;
-	background-color: #333333;
+	background-color: #474E68;
+	color: #ffffff;
 	
   }
   .sitemap2{
@@ -408,6 +443,9 @@ padding-left: 0px;
 	color: #ffffff;
 	text-decoration: none;
   }
+  .firsthalf {
+	color: #ffffff;
+  }
   .fet {
 	color: #ffffff;
 	font-size: 20px;
@@ -430,8 +468,6 @@ padding-left: 0px;
   }
   .socialssit {
 	background-color: ;
-	padding-left: 100px;
-	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 
@@ -507,7 +543,7 @@ padding-left: 0px;
 	height: 40px;
   }
   .copyright {
-	background-color: #0E5E6F;
+	background-color: #404258;
 	margin-top: -24px;
 	margin-bottom: -24px;
   }
