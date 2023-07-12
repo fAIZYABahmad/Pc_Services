@@ -328,7 +328,7 @@ background-color: #474E68;
 }
 .contactss {
 	color: rgb(255, 255, 255);
-
+display: flex;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -552,15 +552,18 @@ margin-top: 50px;
 	padding-bottom: 5px;
 	color: #b4b2b2;
   }
-@media (max-width: 480px) {
+@media (max-width: 414px) {
+	.background {
+		margin: 0px;
+	}
 	.main-box {
-		width: 100%;
+		width: 414px;
 	}
 	.background {
 		color: #fcfc00;
 		background-color: #6B728E;
 		height: 500px;
-		width: 414px;
+		width: 517px;
 	  }
 	  .firsthalf {
 		display: grid;
@@ -626,5 +629,13 @@ margin-top: 50px;
 	}
 	.pic {
 		display: grid;
+	}
+	.contactss{
+		display: grid;
+	}
+	.vl {
+		padding: 0%;
+		margin: 0%;
+		width: 414px;
 	}
 }
