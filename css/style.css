@@ -328,7 +328,7 @@ background-color: #474E68;
 }
 .contactss {
 	color: rgb(255, 255, 255);
-
+display: flex;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -627,4 +627,21 @@ margin-top: 50px;
 	.pic {
 		display: grid;
 	}
+	.contactss{
+		display: grid;
+	}
+	.vl {
+		display: none;
+	}
+	.vl2{
+		display: none;
+	}
+	.site-map{
+		margin: 0%;
+	}
+	.socialssit {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
 }
