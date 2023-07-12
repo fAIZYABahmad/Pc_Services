@@ -47,7 +47,7 @@ body {
     background-color: rgb(167, 100, 255);
   }
 .background {
-  color: #050504;
+  color: #b6b600;
   background-color: #6B728E;
   height: 600px;
 }
@@ -328,7 +328,7 @@ background-color: #474E68;
 }
 .contactss {
 	color: rgb(255, 255, 255);
-	display: flex;
+
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -552,45 +552,79 @@ margin-top: 50px;
 	padding-bottom: 5px;
 	color: #b4b2b2;
   }
-
-  @media screen and (max-width :480px){
+@media (max-width: 480px) {
+	.main-box {
+		width: 100%;
+	}
 	.background {
+		color: #fcfc00;
 		background-color: #6B728E;
-		height: 1000px;
-		width: 1200px;
-	
+		height: 500px;
+		width: 414px;
+	  }
+	  .firsthalf {
+		display: grid;
+	  }
+	  .feature-heading h1{
+		color: rgb(0, 0, 0);
+		text-align: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 110px;
+		font-size: 1.8rem;
+	}
+	.feature-body{
+		justify-content: center;
+		align-items: center;
+		min-height: 400px;
+		padding-bottom: 50px;
+		width: 414px;
+		margin: auto;
+		display: grid;
+	}
+	.text-big{
+		color: rgb(255, 255, 255);
+		font-family: "Gill Sans", sans-serif;
+	  font-size: 1.9rem;
+	  margin-top: 0%;
+	  letter-spacing: 2px;
+	top: 100px;
+	}
+	.par p {
+		width: 414px;
 	}
 	.pic {
+		left: 550px;
+		bottom: 230px;
+		display: grid;
 		position: relative;
-		right: 0%;
-		left: 0%;
-		top: 0%;
-		bottom: 0%;
+	  }
+	  .TESTOMINOLES{
+		width: 414px;
+		padding: 0%;
+		padding-bottom: 50px;
+	  }
+	  .TESTOMINOLES-HEADING h1{
+		width: 414px;
+		font-size: 1.8rem;
+	  }
+	  .TESTOMINOLES-body {
+		width: 414px;
+		padding: 0%;
+	  }
+	.navigation-bars{
+		width: 414px;
+	  }
+	  .navigation-bar ul {
+		margin: 0%;
+		
+	  }
+	  
+	.navigation-bar{
+		display: flex;
+		margin: 0%;
 	}
-
-	.text-big {
-		text-align: center;
-	}
-	.par {
-		text-align: center;
-	}
-	.secend {
-		padding-top: 150px;
-		padding-left: 250px;
-	}
-	.feature-body {
-		width: 1200px;
-
-	}
-	.setting-feature {
-		height: 400px;
-	}
-	.footer {
-		width: 1200px;
-	}
-	.copyright-claim {
-		background-color: #404258;
-		width: 1200px;
-	
+	.pic {
+		display: grid;
 	}
 }
