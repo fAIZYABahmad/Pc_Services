@@ -566,12 +566,9 @@ margin-top: 50px;
 		display: grid;
 	  }
 	  .feature-heading h1{
-		color: rgb(0, 0, 0);
-		text-align: left;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		padding-left: 110px;
-		font-size: 1.8rem;
+		width: 414px;
+		margin-left: 0%;
+		font-size: 35px;
 	}
 	.feature-body{
 		justify-content: center;
@@ -589,10 +586,17 @@ margin-top: 50px;
 	  margin-top: 0%;
 	  letter-spacing: 2px;
 	top: 100px;
+	width: 414px;
 	}
-	.par p {
+	.img-main{
+		display: none;
+	}
+	.par {
 		width: 414px;
+		margin: 0px;
+		padding: 0%;
 	}
+
 	.pic {
 		left: 550px;
 		bottom: 230px;
@@ -643,5 +647,6 @@ margin-top: 50px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
 	
 }
