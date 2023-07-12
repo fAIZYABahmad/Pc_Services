@@ -552,7 +552,7 @@ margin-top: 50px;
 	padding-bottom: 5px;
 	color: #b4b2b2;
   }
-@media (max-width: 480px) {
+@media (max-width: 414px) {
 	.main-box {
 		width: 100%;
 	}
