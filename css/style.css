@@ -75,7 +75,7 @@ line-height: 30px;
 top: 100px;
 }
 .par {
-  position: relative;
+	position: relative;
   top: 90px;
   left: 20px;
   font-family: "Gill Sans", sans-serif;
@@ -582,11 +582,13 @@ margin-top: 50px;
 	.text-big{
 		color: rgb(255, 255, 255);
 		font-family: "Gill Sans", sans-serif;
-	  font-size: 1.9rem;
-	  margin-top: 0%;
-	  letter-spacing: 2px;
-	top: 100px;
-	width: 414px;
+		font-size: 1.9rem;
+		margin-top: 0%;
+		letter-spacing: 2px;
+		top: 100px;
+		width: 414px;
+		position: relative;
+	
 	}
 	.img-main{
 		display: none;
@@ -595,6 +597,7 @@ margin-top: 50px;
 		width: 414px;
 		margin: 0px;
 		padding: 0%;
+		position: relative;
 	}
 
 	.pic {
