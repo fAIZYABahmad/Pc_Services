@@ -554,12 +554,12 @@ margin-top: 50px;
   }
 @media (max-width: 414px) {
 	.main-box {
-		width: 100%;
+		width: 414px;
 	}
 	.background {
 		color: #fcfc00;
 		background-color: #6B728E;
-		height: 500px;
+		height: 450px;
 		width: 414px;
 	  }
 	  .firsthalf {
@@ -586,7 +586,7 @@ margin-top: 50px;
 		margin-top: 0%;
 		letter-spacing: 2px;
 		top: 100px;
-		width: 414px;
+		width: 390px;
 		
 	
 	}
@@ -597,6 +597,11 @@ margin-top: 50px;
 		width: 414px;
 		margin: 0px;
 		padding: 0%;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 0%;
+		padding-top: 100px;
 	}
 
 	.pic {
@@ -604,6 +609,10 @@ margin-top: 50px;
 		bottom: 230px;
 		display: grid;
 		position: relative;
+	  }
+	  .btn {
+		top: 50px;
+		bottom: 0px ;
 	  }
 	  .TESTOMINOLES{
 		width: 414px;
@@ -623,6 +632,8 @@ margin-top: 50px;
 	  }
 	  .navigation-bar ul {
 		margin: 0%;
+		padding-right: -10px;
+		width: 414px;
 		
 	  }
 	  
