@@ -552,21 +552,21 @@ margin-top: 50px;
 	padding-bottom: 5px;
 	color: #b4b2b2;
   }
-@media (max-width: 414px) {
+@media (max-width: 912px) {
 	.main-box {
-		width: 414px;
+		width: 912px;
 	}
 	.background {
 		color: #fcfc00;
 		background-color: #6B728E;
 		height: 450px;
-		width: 414px;
+		width: 912px;
 	  }
 	  .firsthalf {
 		display: grid;
 	  }
 	  .feature-heading h1{
-		width: 414px;
+		width: 912px;
 		margin-left: 0%;
 		font-size: 35px;
 	}
@@ -575,7 +575,7 @@ margin-top: 50px;
 		align-items: center;
 		min-height: 400px;
 		padding-bottom: 50px;
-		width: 414px;
+		width: 912px;
 		margin: auto;
 		display: grid;
 	}
@@ -594,7 +594,7 @@ margin-top: 50px;
 		display: none;
 	}
 	.par {
-		width: 414px;
+		width: 912px;
 		margin: 0px;
 		padding: 0%;
 		left: 0%;
@@ -615,25 +615,142 @@ margin-top: 50px;
 		bottom: 0px ;
 	  }
 	  .TESTOMINOLES{
-		width: 414px;
+		width: 912px;
 		padding: 0%;
 		padding-bottom: 50px;
 	  }
 	  .TESTOMINOLES-HEADING h1{
-		width: 414px;
+		width: 912px;
 		font-size: 1.8rem;
 	  }
 	  .TESTOMINOLES-body {
-		width: 414px;
+		width: 912px;
 		padding: 0%;
 	  }
 	.navigation-bars{
-		width: 414px;
+		width: 912px;
 	  }
 	  .navigation-bar ul {
 		margin: 0%;
 		padding-right: -10px;
-		width: 414px;
+		width: 912px;
+		
+	  }
+	  
+	.navigation-bar{
+		display: flex;
+		margin: 0%;
+	}
+	.pic {
+		display: grid;
+	}
+	.contactss{
+		display: grid;
+	}
+	.vl {
+		display: none;
+	}
+	.vl2{
+		display: none;
+	}
+	.site-map{
+		margin: 0%;
+	}
+	.socialssit {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	
+}
+@media (max-width: 912px) {
+	.main-box {
+		width: 912px;
+	}
+	.background {
+		color: #fcfc00;
+		background-color: #6B728E;
+		height: 400px;
+		width: 912px;
+	  }
+	  .firsthalf {
+		display: grid;
+	  }
+	  .feature-heading h1{
+		width: 912px;
+		margin-left: 0%;
+		font-size: 35px;
+	}
+	.feature-body{
+		justify-content: center;
+		align-items: center;
+		min-height: 400px;
+		padding-bottom: 50px;
+		width: 912px;
+		margin: auto;
+
+	}
+	.text-big{
+		color: rgb(255, 255, 255);
+		font-family: "Gill Sans", sans-serif;
+		font-size: 1.9rem;
+		margin-top: 0%;
+		letter-spacing: 2px;
+		top: 100px;
+		width: 390px;
+		padding-left: 40px;
+		
+	
+	}
+	.img-main{
+		width: 200px;
+		height: 200px;
+		display: flex;
+	}
+	.par {
+		width: 912px;
+		margin: 0px;
+		padding: 0%;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 0%;
+		padding-top: 100px;
+		padding-left: 40px;
+	}
+
+	.pic {
+		left: 550px;
+		bottom: 230px;
+		display: grid;
+		position: relative;
+	  }
+	  .btn {
+		top: 50px;
+		bottom: 0px ;
+		margin-left: 40px;
+	  }
+	  .TESTOMINOLES{
+		width: 912px;
+		padding: 0%;
+		padding-bottom: 50px;
+	  }
+	  .TESTOMINOLES-HEADING h1{
+		width: 912px;
+		font-size: 1.8rem;
+	  }
+	  .TESTOMINOLES-body {
+		width: 912px;
+		padding: 0%;
+	  }
+	.navigation-bars{
+		width: 912px;
+	  }
+	  .navigation-bar ul {
+		margin: 0%;
+		width: 912px;
+		justify-content: right;
+		padding-left: 400px;
 		
 	  }
 	  
