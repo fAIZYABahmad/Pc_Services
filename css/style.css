@@ -552,21 +552,24 @@ margin-top: 50px;
 	padding-bottom: 5px;
 	color: #b4b2b2;
   }
-@media (max-width: 912px) {
+  .setting-feature2 {
+	display: none;
+  }
+@media (max-width: 414px) {
 	.main-box {
-		width: 912px;
+		width: 414px;
 	}
 	.background {
 		color: #fcfc00;
 		background-color: #6B728E;
 		height: 450px;
-		width: 912px;
+		width: 414px;
 	  }
 	  .firsthalf {
 		display: grid;
 	  }
 	  .feature-heading h1{
-		width: 912px;
+		width: 414px;
 		margin-left: 0%;
 		font-size: 35px;
 	}
@@ -575,7 +578,7 @@ margin-top: 50px;
 		align-items: center;
 		min-height: 400px;
 		padding-bottom: 50px;
-		width: 912px;
+		width: 414px;
 		margin: auto;
 		display: grid;
 	}
@@ -594,7 +597,7 @@ margin-top: 50px;
 		display: none;
 	}
 	.par {
-		width: 912px;
+		width: 414px;
 		margin: 0px;
 		padding: 0%;
 		left: 0%;
@@ -615,25 +618,25 @@ margin-top: 50px;
 		bottom: 0px ;
 	  }
 	  .TESTOMINOLES{
-		width: 912px;
+		width: 414px;
 		padding: 0%;
 		padding-bottom: 50px;
 	  }
 	  .TESTOMINOLES-HEADING h1{
-		width: 912px;
+		width: 414px;
 		font-size: 1.8rem;
 	  }
 	  .TESTOMINOLES-body {
-		width: 912px;
+		width: 414px;
 		padding: 0%;
 	  }
 	.navigation-bars{
-		width: 912px;
+		width: 414px;
 	  }
 	  .navigation-bar ul {
 		margin: 0%;
 		padding-right: -10px;
-		width: 912px;
+		width: 414px;
 		
 	  }
 	  
@@ -661,9 +664,11 @@ margin-top: 50px;
 		padding-bottom: 20px;
 	}
 
-	
+	.setting-feature2 {
+		display: none;
+	}
 }
-@media (max-width: 912px) {
+@media  (max-width: 912px) {
 	.main-box {
 		width: 912px;
 	}
@@ -762,7 +767,7 @@ margin-top: 50px;
 		display: grid;
 	}
 	.contactss{
-		display: grid;
+		display: flex;
 	}
 	.vl {
 		display: none;
@@ -772,11 +777,24 @@ margin-top: 50px;
 	}
 	.site-map{
 		margin: 0%;
+		padding-top: 90px;
 	}
 	.socialssit {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+	.footer-elem {
+		
+	}
+	.logo-img {
+		padding-right: 80px;
+	}
+	.socialssit2{
+		width: 300px;
+		align-items: center;
+		padding-left: 200px;
+	}
 
-	
+		
+	}
 }
