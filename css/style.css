@@ -555,6 +555,25 @@ margin-top: 50px;
   .socialssit2 {
 	display: none;
   }
+  .setting-feature2 {
+	display: none;
+  }
+  .setting-feature3{
+	padding: 10px 10px;
+	font-size: 20;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 20px;
+	color: #000000;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 @media (max-width: 414px) {
 	.main-box {
 		width: 414px;
@@ -687,12 +706,10 @@ margin-top: 50px;
 		font-size: 35px;
 	}
 	.feature-body{
-		justify-content: center;
-		align-items: center;
+		
 		min-height: 400px;
 		padding-bottom: 50px;
 		width: 912px;
-		margin: auto;
 
 	}
 	.text-big{
@@ -739,6 +756,7 @@ margin-top: 50px;
 		width: 912px;
 		padding: 0%;
 		padding-bottom: 50px;
+		justify-content: center;
 	  }
 	  .TESTOMINOLES-HEADING h1{
 		width: 912px;
@@ -795,7 +813,22 @@ margin-top: 50px;
 		padding-left: 200px;
 		color: #ffffff;
 	}
+	.feature-MAINBOX{
+		justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	width: 700px;
+  height: 450px;
+  overflow-x: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  padding-left: 150px;
 
-		
+	}
+	.setting-feature3 {
+		display: none;
+	}
+	.setting-feature{
+		width: 800px;
 	}
 }
